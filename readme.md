@@ -13,11 +13,11 @@ pip install -r requirements.txt
 
 ### Download Data
 Omni is tested with 4 geospatial ER datasets. Download the New Zealand Entity Resolution dataset (NZER) 
-[here](https://figshare.com/s/e0e0481d62a3e411178b) and copy to dataset directory. 
+[here](https://figshare.com/s/e0e0481d62a3e411178b) and copy to data directory. 
 
 
 The complex geometry enhanced, pre-processed versions of the third-party geospatial ER datasets: GeoD, SGN & GTMD, have 
-been made available [here](https://figshare.com/s/7858aa81a88b2347d09d). Unzip the content into the dataset directory.
+been made available [here](https://figshare.com/s/7858aa81a88b2347d09d). Unzip the content into the data directory.
 
 ### Model Training
 
