@@ -3,7 +3,7 @@
 
 Omni: a deep neural framework that performs Geospatial Entity Resolution (ER) on diverse-geometry databases. 
 
-This project presents the code for the Omni framework. For the LLM based approach proposed in the paper, please check this [repo](somelinl).
+This project presents the code for the Omni framework. For the LLM based approach proposed in the paper, please check this [repo](https://github.com/Kalana777/LLMs-for-geospatial-ER).
 
 
 ### Install required packages
@@ -35,7 +35,7 @@ python main.py \
 ```
 
 * ``-d``: Specify the dataset to train. Possible values: ``NZER``, ``GTMD``, ``SGN``, ``GEOD_OSM_FSQ``, ``GEOD_OSM_YELP``.
-* ``-r``: City or Region (NZER: ``auck``, ``hope``, ``norse``, ``north``, ``palm``. GTMD: ``mel``, ``sea``, ``sin``, ``tor``. SGN: ``swiss``.  GEOD_OSM_FSQ/GEOD_OSM_YELP: ``sin``, ``edi``, ``tor``, ``pit``).
+* ``-r``: City or Region (NZER: ``auck``, ``hope``, ``norse``, ``north``, ``palm``. GTMD: ``mel``, ``sea``, ``sin``, ``tor``. SGN: ``swiss``. GEOD_OSM_FSQ/GEOD_OSM_YELP: ``sin``, ``edi``, ``tor``, ``pit``).
 * ``-m``: Model. Choose between the two variants: ``omni`` and ``omnismall``.
 * ``--run_att_aff``: Set flag to run attribute affinity.
 * ``--attributes``: List of attributes to compare with attribute affinity. For example, ``name type`` for nzer..
