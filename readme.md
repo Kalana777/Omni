@@ -1,5 +1,5 @@
 # Omni
-#### Code for 'Omni-geometry representation learning and Large Language Models for Geospatial Entity Resolution'
+#### Code for 'Omni Geometry Representation Learning vs Large Language Models for Geospatial Entity Resolution'
 
 Omni: a deep neural framework that performs Geospatial Entity Resolution (ER) on diverse-geometry databases. 
 
